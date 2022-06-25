@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/IconePagina.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="Css/index.css">
+    <title>MG Games</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+        <!--O ICONE E UMA IMAGEM E OS TEXTOS SAO ELEMENTOS HTML-->
+        <header id="cabecalho">
+            <h1 class="maru">Maru</h1>
+            <img class="logo" src="imagens/IconePaginaMG150.png" alt="icone da pagina" srcset="">
+            <h1 class="games">Games</h1>
+        </header>
+        <!--COLOQUEI O STYLE AQUI POIS ACHEI DESNECESSARIO CRIA-LO NO CSS EXTERNO PARA APENAS UM COMANDO-->
+        <div style="display: inline-block;">
+            <img id="icone" src="imagens/home80.png" alt="icone home" srcset="">
+        </div>
+        <nav class="menunavegacao"> 
+            <ul>
+                <li onmouseover="mudaIcone('imagens/home80.png')"
+                onmouseout="mudaIcone('imagens/home80.png')">
+                <a href="index.html" target="_self">Home</a></li>
+                
+                <li onmouseover="mudaIcone('imagens/blog80.png')"
+                onmouseout="mudaIcone('imagens/home80.png')">
+                <a href="blog.html" target="_self">blog</a></li>
+                
+                <li onmouseover="mudaIcone('imagens/equipe80.png')"
+                onmouseout="mudaIcone('imagens/home80.png')">
+                <a href="equipe.html" target="_self">Equipe</a></li>
+                
+                <li onmouseover="mudaIcone('imagens/contato80.png')"
+                onmouseout="mudaIcone('imagens/home80.png')">
+                <a href="contato.html" target="_self">Contato</a></li>                    
+            </ul>
+        </nav>
+            
+            <h3 class="home"><a href="index.html">HOME</a></h3>
+        
+        <main id="videos">           
+            
+            <div class="video">
+            <h2>GUARDA DE CRISTAL</h2>
+            <h3>A nova atualização de Rainbow six siege esta chegando</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DoF8wA-ylog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3><a href="blog.html#postR6" target="_blank">LEIA MAIS...</a></h3>
+            </div>
+            
+            <div class="video">
+            <h2>25 ANOS DE RESIDENT EVIL</h2>
+            <h3>Como surgiu a maior franquia de survivor horror da historia</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nXTsjRyamAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3><a href="blog.html#postRE" target="_blank">LEIA MAIS...</a></h3>
+            </div>
+            
+            <div class="video">
+            <h2>DESTINY 2 A BRUXA-RAINHA:</h2>
+            <h3>Chega em fevereiro de 2022!</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-rutzlXCtb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3><a href="blog.html#postD2" target="_blank">LEIA MAIS...</a></h3>
+            </div>
+
+            <div class="video">
+            <h2>CONHECA A HISTORIA DE GOD OF WAR</h2>
+            <h3>Cena deletada do game!</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/73Oo64uVsrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3><a href="blog.html#postGOW" target="_blank">LEIA MAIS...</a></h3>
+            </div>
+        </main>
+            <!--DEIXEI A DATA NO FORMATO AMERICANO MESMO POIS ACHEI MAIS COMPLETO-->
+            <p style="text-align: center; font-size: 25px; color: white;">
+                <script type="text/javascript" lang="javascript">
+                    document.write(Date());
+                </script>
+            </p>
+        <footer id="rodape">
+            <a href="https://www.instagram.com/marusero_250/" target="_blank"><img src="imagens/instagram32.png" alt="icone instagram" srcset=""></a>
+            <a href="https://www.youtube.com/channel/UCddBWgXHes4BLKI_O_9bfMg" target="_blank"><img src="imagens/youtube34.png" alt="icone youtube" srcset=""></a>
+            <a href="https://www.facebook.com/profile.php?id=100001826487241" target="_blank"><img src="imagens/facebook32.png" alt="icone facebook" srcset=""></a>
+            <a href="https://www.linkedin.com/in/marcelo-passos-6b5176180/" target="_blank"><img src="imagens/linkedin32.png" alt="icone linkedin" srcset=""></a>
+            <p style="font-weight: 600;">Copyright 2021 by MG Games</p>
+        </footer>
+</body>
+</html>

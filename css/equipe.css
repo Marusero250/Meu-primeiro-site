@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url(../documentos/IDroid.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 1400px;
+    min-width: 300px;
+    margin: auto;
+    background-image:url(../imagens/FUNDO150.png);
+}
+header {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo {
+    display: block;
+    margin: 5px opx;
+}
+.maru {
+    display: inline;
+    padding-top: 55px;
+    float: left;
+    font-size: 100px;
+    color: blanchedalmond;
+    text-shadow: 6px 6px 5px black;
+}
+.games {
+    display: inline;
+    padding-top: 55px;
+    float: right;
+    font-size: 100px; 
+    color: blanchedalmond;
+    text-shadow: 6px 6px 5px black;
+}
+.menunavegacao {
+    margin: auto;
+    text-align: center;
+}
+.menunavegacao ul {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: inline-block;
+    background-color: rgb(38, 79, 95);
+    font-size: 30px;
+    text-align: center;
+}
+.menunavegacao ul li {
+    display: inline;
+    padding: 15px;
+    color:#ffff;
+}
+.menunavegacao ul li a {
+    font-family: 'Comic sans MS';
+    color: blanchedalmond;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.menunavegacao ul li a:hover {
+    color: rgb(40, 151, 241);
+    text-decoration: underline;
+    transition-duration: .7s;
+}
+.home {
+    font-family: 'Comic sans MS';
+    background-color:rgb(20, 42, 51);
+    font-size: 30px;
+    border-radius: 10px;
+}
+.home :hover {
+    color: rgb(40, 151, 241);
+    text-decoration: none;
+}
+main h1 {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'android';
+    color: #ccff33;
+}
+main img {
+    display: flex;
+    width: 240px;
+    height: 340px;
+    margin: 10px auto;
+    justify-content: center;
+}
+main p {
+    margin: 20px auto;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1.5em;
+}
+footer {    
+    max-width: 1400px;
+    min-width: 240px;
+    max-height: 60px;
+    padding-left: 40%;
+    background-color: rgb(20, 42, 51);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} 
+footer > a {
+    text-align: center;
+    padding-left: 10px;  
+}
